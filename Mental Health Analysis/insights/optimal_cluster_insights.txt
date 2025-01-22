@@ -1,0 +1,74 @@
+==================================================
+CLUSTERING INSIGHTS: OPTIMAL
+==================================================
+
+Analysis Date: 2025-01-22 01:43:33
+Method: optimal
+Number of Clusters: 9
+Silhouette Score: 0.6908554669736011
+
+CLUSTER STATISTICS
+==================
+
+Cluster 0:
+Size: 361 samples (25.19%)
+Mental Health Support Score: 0.37
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.60
+Treatment Engagement Score: 0.30
+
+Cluster 1:
+Size: 177 samples (12.35%)
+Mental Health Support Score: 0.50
+Mental Health Risk Score: 0.97
+Workplace Satisfaction Score: 0.73
+Treatment Engagement Score: 0.30
+
+Cluster 2:
+Size: 193 samples (13.47%)
+Mental Health Support Score: 0.39
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.25
+Treatment Engagement Score: 0.30
+
+Cluster 3:
+Size: 59 samples (4.12%)
+Mental Health Support Score: 0.00
+Mental Health Risk Score: 0.97
+Workplace Satisfaction Score: 0.33
+Treatment Engagement Score: 0.30
+
+Cluster 4:
+Size: 117 samples (8.16%)
+Mental Health Support Score: 0.80
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.29
+Treatment Engagement Score: 0.30
+
+Cluster 5:
+Size: 325 samples (22.68%)
+Mental Health Support Score: 0.00
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.26
+Treatment Engagement Score: 0.30
+
+Cluster 6:
+Size: 79 samples (5.51%)
+Mental Health Support Score: 0.00
+Mental Health Risk Score: 1.00
+Workplace Satisfaction Score: 0.73
+Treatment Engagement Score: 0.30
+
+Cluster 7:
+Size: 67 samples (4.68%)
+Mental Health Support Score: 1.00
+Mental Health Risk Score: 0.94
+Workplace Satisfaction Score: 0.66
+Treatment Engagement Score: 0.30
+
+Cluster 8:
+Size: 55 samples (3.84%)
+Mental Health Support Score: 0.48
+Mental Health Risk Score: 1.00
+Workplace Satisfaction Score: 0.34
+Treatment Engagement Score: 0.30
