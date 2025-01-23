@@ -1,0 +1,32 @@
+==================================================
+CLUSTERING INSIGHTS: HIERARCHICAL
+==================================================
+
+Analysis Date: 2025-01-23 05:17:10
+Method: hierarchical
+Number of Clusters: 3
+Silhouette Score: 0.4603149017122954
+
+CLUSTER STATISTICS
+==================
+
+Cluster 0:
+Size: 437 samples (30.50%)
+Mental Health Support Score: 0.42
+Mental Health Risk Score: 0.97
+Workplace Satisfaction Score: 0.62
+Treatment Engagement Score: 0.30
+
+Cluster 1:
+Size: 469 samples (32.73%)
+Mental Health Support Score: 0.47
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.54
+Treatment Engagement Score: 0.30
+
+Cluster 2:
+Size: 527 samples (36.78%)
+Mental Health Support Score: 0.16
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.25
+Treatment Engagement Score: 0.30

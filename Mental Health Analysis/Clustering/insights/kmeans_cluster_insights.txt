@@ -1,0 +1,32 @@
+==================================================
+CLUSTERING INSIGHTS: KMEANS
+==================================================
+
+Analysis Date: 2025-01-23 05:17:10
+Method: kmeans
+Number of Clusters: 3
+Silhouette Score: 0.4692618532647748
+
+CLUSTER STATISTICS
+==================
+
+Cluster 0:
+Size: 612 samples (42.71%)
+Mental Health Support Score: 0.48
+Mental Health Risk Score: 2.00
+Workplace Satisfaction Score: 0.46
+Treatment Engagement Score: 0.30
+
+Cluster 1:
+Size: 401 samples (27.98%)
+Mental Health Support Score: 0.45
+Mental Health Risk Score: 0.97
+Workplace Satisfaction Score: 0.65
+Treatment Engagement Score: 0.30
+
+Cluster 2:
+Size: 420 samples (29.31%)
+Mental Health Support Score: 0.03
+Mental Health Risk Score: 1.91
+Workplace Satisfaction Score: 0.27
+Treatment Engagement Score: 0.30
