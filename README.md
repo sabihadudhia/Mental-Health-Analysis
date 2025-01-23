@@ -1,6 +1,7 @@
-# Mental Health in Tech Analysis
+# Mental Health in Tech Analysis Pipeline
 
-This project analyzes mental health survey data from tech industry professionals using various data science techniques including exploratory data analysis, dimensionality reduction, and clustering.
+## Project Overview
+This project analyzes mental health in the tech industry using various data science techniques including data processing, exploration, dimensionality reduction, and clustering analysis.
 
 ## Prerequisites
 
@@ -30,7 +31,6 @@ pip install pandas numpy matplotlib seaborn sklearn scipy umap-learn kneed
 ```
 
 ## Project Structure
-
 ```
 Mental Health Analysis/
 │
@@ -38,17 +38,55 @@ Mental Health Analysis/
 │   ├── raw/                    # Raw data files
 │   └── processed/              # Processed data files
 │
-├── plots/                      # Generated plots and visualizations
-├── results/                    # Analysis results
-├── metrics/                    # Clustering metrics
-├── insights/                   # Generated insights
+├── Data Exploration/           # Data exploration outputs
+│   ├── plots/                  # Visualization plots
+│   └── results/                # Analysis results
 │
-├── data_exploration.py         # Data exploration and visualization
-├── data_processing.py         # Data preprocessing and feature engineering
-├── dimensionality_reduction.py # Dimensionality reduction analysis
-├── clustering.py              # Clustering analysis
-└── run_analysis.py           # Main script to run the entire pipeline
+├── Data Processing/            # Data processing outputs
+│   ├── plots/                  # Visualization plots
+│   ├── results/                # Processing results
+│   └── visualizations/         # Additional visualizations
+│
+├── Dimensionality Reduction/   # Dimensionality reduction outputs
+│   ├── plots/                  # 2D and 3D visualizations
+│   └── results/                # Reduction results
+│       ├── pca/               # PCA specific results
+│       ├── tsne/              # t-SNE specific results
+│       └── umap/              # UMAP specific results
+│
+├── Clustering/                 # Clustering analysis outputs
+│   ├── plots/                  # Cluster visualizations
+│   ├── results/                # Clustering results
+│   ├── metrics/                # Performance metrics
+│   └── insights/              # Cluster insights
+│
+└── scripts/
+    ├── run_analysis.py        # Main execution script
+    ├── data_exploration.py    # Data exploration script
+    ├── data_processing.py     # Data preprocessing script
+    ├── dimensionality_reduction.py  # Dimensionality reduction script
+    └── clustering.py          # Clustering analysis script
 ```
+## Requirements
+- Python 3.8+
+- Required packages:
+  ```
+  pandas
+  numpy
+  scikit-learn
+  umap-learn
+  matplotlib
+  seaborn
+  ```
+
+## Usage
+```bash
+python run_analysis.py
+```
+
+## Note
+Ensure the raw data file is placed in the `data/raw/` directory before running the analysis.
+
 
 ## Data Setup
 
@@ -77,26 +115,24 @@ python clustering.py
 python run_analysis.py
 ```
 
-## Output Files
+## Key Features
+- Data Processing:
+  - Handles missing values
+  - Standardizes data formats
+  - Calculates mental health scores
+  
+- Dimensionality Reduction:
+  - PCA with variance analysis
+  - t-SNE visualization
+  - UMAP reduction
+  - 2D and 3D visualizations
 
-The analysis will generate several output files:
+- Clustering Analysis:
+  - Multiple clustering methods (K-means, DBSCAN, Hierarchical)
+  - Optimal cluster selection
+  - Cluster evaluation metrics
+  - Detailed cluster insights
 
-1. Data Exploration:
-   - `plots/numerical_distributions.pdf`
-   - `plots/data_summary.pdf`
-   - `plots/correlation_matrix.png`
-   - `plots/score_distributions.pdf`
-
-2. Data Processing:
-   - `data/processed/processed_data.csv`
-   - `data/processed/mental_health_scores.csv`
-   - `data/processed/score_statistics.csv`
-
-3. Clustering Analysis:
-   - `metrics/clustering_metrics.csv`
-   - `metrics/clustering_metrics_with_ari.png`
-   - `plots/cluster_comparison.png`
-   - `insights/{method}_cluster_insights.txt`
 
 ## Troubleshooting
 
@@ -128,6 +164,5 @@ The analysis will generate several output files:
 - The clustering analysis includes multiple methods (K-means, DBSCAN, Hierarchical)
 - Results include both visualizations and detailed text insights
 
-## Contributing
 
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+
