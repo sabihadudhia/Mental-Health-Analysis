@@ -97,12 +97,30 @@ Interpretation for HR leverage:
 - Dimensionality reduction artifacts: `Dimensionality Reduction/results/`
 - Clustering insights, plots, metrics: `Clustering/insights/`, `Clustering/plots/`, `Clustering/metrics/`
 
+## Visualizations:
+
+Dimensionality Reduction: 
+
+<img width="3010" height="2113" alt="pca_explained_variance" src="https://github.com/user-attachments/assets/559db8a0-c06b-4c24-969d-e963d6b04f4b" />
+
+Clustering Insights:
+
+<img width="4455" height="1902" alt="k_selection_analysis" src="https://github.com/user-attachments/assets/cb71e0ef-94ec-4b52-832e-f7f2e06a76f4" />
+
+Clustering Analysis:
+
+<img width="5965" height="6482" alt="kmeans_cluster_analysis" src="https://github.com/user-attachments/assets/095ac193-a811-4e5b-a8f9-a8018215779e" />
+
+<img width="5965" height="6482" alt="hierarchical_cluster_analysis" src="https://github.com/user-attachments/assets/67c8722b-7240-4f96-9a57-cfe07075e3aa" />
+
+<img width="5965" height="6482" alt="optimal_cluster_analysis" src="https://github.com/user-attachments/assets/e709bc0c-ddfe-449f-ab53-f483663bd6d8" />
+
 ## Recommended Next Improvements
 - Recompute correlation matrix using numeric-only columns to remove plotting warning.
 - Revisit `treatment_engagement_score` formulation (currently no variance).
 - Add formal cluster stability checks across random seeds and bootstrap samples.
 - Add a concise stakeholder dashboard consolidating cluster-specific HR actions.
-- 
+ 
 ## Technologies
 - Python 3.8+
 - pandas, numpy
